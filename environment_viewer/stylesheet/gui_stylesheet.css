@@ -1,0 +1,56 @@
+QWidget{
+    background:#252525;
+    color: #e4e4e4;
+    border-radius:3px;
+}
+
+QPushButton{
+    background:#173d63;
+    color: white;
+    padding: 10px;
+}
+
+QPushButton::hover{
+    background:#25344f;
+}
+
+QLineEdit{
+    background:#303030;
+    color: white;
+    padding: 10px;
+}
+
+QTableWidget::enable {
+    background-color: #272727; /* Dark background */
+    color: #e0e0e0;             /* Light text color */
+}
+
+QTableWidget::item {
+    padding: 5px;                /* Padding within cells */
+}
+
+QTableWidget::item:selected {
+    background-color: #44575b;   /* Highlighted row color */
+    color: white;
+}
+
+QHeaderView::section {
+    background-color: #383838; /* Slightly lighter header */
+    color: #e0e0e0;
+    padding: 1px;
+    border: 1px solid #404040;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #383838;
+    width: 15px;
+    margin: 0px 0px 0px 0px;
+}
+QScrollBar::handle:vertical {
+    background: #606060;
+    min-height: 20px;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+     background: none;
+}
