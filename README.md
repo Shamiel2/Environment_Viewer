@@ -1,7 +1,8 @@
 # Environment_Viewer
-A Tool were you can View, Create and Modify your Environment Variables with a given DCC.
+A Simple Tool to View, Create and Modify your Environment Variables with a given DCC.
+Something simple that can be very usefull in a production setting , to quickly have a look at your Global Variables
 
-![image](https://github.com/user-attachments/assets/6f6fb5ca-a1df-4378-9dd2-74e571057683)
+![image](https://github.com/user-attachments/assets/cb6ceea0-7b0b-4993-9bbf-8e01784434c6)
 
 # Requirements
 - PySide2 or PyQt
